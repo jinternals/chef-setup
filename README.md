@@ -6,8 +6,7 @@
 
 ## chef server setup
 
-https://downloads.chef.io/chef-server
-https://downloads.chef.io/manage
+download (chef-server)[https://downloads.chef.io/chef-server] and (manage) [https://downloads.chef.io/manage]
 
 
 
