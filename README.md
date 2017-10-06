@@ -6,15 +6,15 @@
 
 ## chef server setup
 
-download (chef-server)[https://downloads.chef.io/chef-server] and (manage) [https://downloads.chef.io/manage]
+download [chef-server](https://downloads.chef.io/chef-server) and [manage](https://downloads.chef.io/manage)
 
 
 
 ```
-mkdir ~/learn-chef </br>
-cd ~/learn-chef </br>
-mkdir .chef </br>
-cd .chef/ </br>
+mkdir ~/learn-chef
+cd ~/learn-chef
+mkdir .chef
+cd .chef/
 ```
 
 touch knife.rb
