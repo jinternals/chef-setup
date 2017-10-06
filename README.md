@@ -11,6 +11,8 @@ download following and add in package dir. <br>
 *	[chef-server](https://downloads.chef.io/chef-server) 
 *	[manage](https://downloads.chef.io/manage)
 
+Update bootstrap.sh with chef-server-*.deb and chef-manage*.deb file names.
+
 
 
 ```
