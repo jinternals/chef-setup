@@ -10,7 +10,7 @@ if [ ! $(which chef-server-ctl) ]; then
 	chef-server-ctl reconfigure
 
 	echo "Waiting for services..."
-    until (curl -D - http://localhost:8000/_status) | grep "200 OK"; do sleep 15s; done
+    	until (curl -D - http://localhost:8000/_status) | grep "200 OK"; do sleep 15s; done
   	while (curl http://localhost:8000/_status) | grep "fail"; do sleep 15s; done
 
 
